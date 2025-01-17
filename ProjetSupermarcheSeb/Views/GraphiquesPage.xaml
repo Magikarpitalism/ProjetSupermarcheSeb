@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chart="clr-namespace:OxyPlot.Maui.Skia;assembly=OxyPlot.Maui.Skia"
+             x:Class="ProjetSupermarcheSeb.Views.GraphiquesPage"
+             Title="GraphiquesPage">
+    <StackLayout Padding="20">
+        <Button Text="Afficher Graphiques" 
+                Clicked="OnAfficherGraphiquesClicked"/>
+
+        <!-- en donut/pie -->
+        <chart:PlotView  x:Name="PieChart"
+                               HeightRequest="200" 
+                               Margin="0,10,0,0"/>
+
+        <!-- en barres -->
+        <chart:PlotView  x:Name="BarChart"
+                                HeightRequest="200" 
+                                Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

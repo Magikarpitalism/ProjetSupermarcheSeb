@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ProjetSupermarcheSeb.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ProjetSupermarcheSeb.Views"
+    xmlns:root="clr-namespace:ProjetSupermarcheSeb"
+    xmlns:local="clr-namespace:ProjetSupermarcheSeb"
+    Shell.FlyoutBehavior="Flyout"
+    Title="ProjetSupermarcheSeb">
+
+    <!-- Page d'accueil (MainPage) -->
+    <FlyoutItem Title="Accueil">
+        <ShellContent ContentTemplate="{DataTemplate root:MainPage}"
+                      Title="Accueil"/>
+    </FlyoutItem>
+
+    <!-- Fonctionnalité 1 : Gestion de l'application -->
+    <FlyoutItem Title="Gestion">
+        <ShellContent ContentTemplate="{DataTemplate views:GestionPage}"
+                      Title="Gestion"/>
+    </FlyoutItem>
+
+    <!-- Fonctionnalité 2 : Saisir un nouveau temps -->
+    <FlyoutItem Title="Saisir Temps">
+        <ShellContent ContentTemplate="{DataTemplate views:SaisirTempsPage}"
+                      Title="SaisirTemps"/>
+    </FlyoutItem>
+
+    <!-- Fonctionnalité 3 : Consultation -->
+    <FlyoutItem Title="Consultation">
+        <ShellContent ContentTemplate="{DataTemplate views:ConsultationPage}"
+                      Title="Consultation"/>
+    </FlyoutItem>
+
+    <!-- Fonctionnalité 4 : Statistiques -->
+    <FlyoutItem Title="Statistiques">
+        <ShellContent ContentTemplate="{DataTemplate views:StatistiquesPage}"
+                      Title="Statistiques"/>
+    </FlyoutItem>
+
+    <!-- Fonctionnalité 5 : Graphiques -->
+    <FlyoutItem Title="Graphiques">
+        <ShellContent ContentTemplate="{DataTemplate views:GraphiquesPage}"
+                      Title="Graphiques"/>
+    </FlyoutItem>
+
+</Shell>

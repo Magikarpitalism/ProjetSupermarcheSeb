@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetSupermarcheSeb.Views.StatistiquesPage"
+             Title="StatistiquesPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Button Text="Calculer les statistiques"
+                    Clicked="OnCalculerClicked"
+                    Margin="0,0,0,20"/>
+
+            <Label x:Name="LabelNbHeuresParEmploye" />
+            <Label x:Name="LabelHeuresParRayon" />
+            <Label x:Name="LabelTotalGeneralHeures" />
+            <Label x:Name="LabelRayonsParSecteur" />
+            <Label x:Name="LabelHeuresParMois" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

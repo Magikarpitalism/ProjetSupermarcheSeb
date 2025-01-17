@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetSupermarcheSeb.Views.ConsultationPage"
+             xmlns:local="clr-namespace:ProjetSupermarcheSeb.Converters"
+             Title="ConsultationPage">
+    <StackLayout Padding="20">
+        <Label Text="Sélectionnez un employé :" />
+        <Picker x:Name="PickerEmployee" 
+                Title="Choisir un employé"
+                SelectedIndexChanged="OnEmployeeSelected"
+                ItemDisplayBinding="{Binding Name, Converter={StaticResource UpperCaseConverter}}" />
+                <!-- utilisation du Converter pour mettre les noms en Majuscule. -->
+        
+        <Label Text="Temps de travail :" 
+               FontAttributes="Bold"
+               Margin="0,20,0,0"/>
+
+        <CollectionView x:Name="CollectionViewWorkTimes">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="{Binding RayonName}" WidthRequest="100"/>
+                        <Label Text="{Binding DateString}" WidthRequest="100"/>
+                        <Label Text="{Binding Hours}" WidthRequest="40" 
+                               TextColor="{Binding Hours, Converter={StaticResource HoursToColorConverter}}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label x:Name="LabelTotalHours"
+               Text="Total : 0h"
+               FontAttributes="Bold"
+               HorizontalOptions="End"
+               Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

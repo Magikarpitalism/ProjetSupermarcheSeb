@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetSupermarcheSeb.Views.SaisirTempsPage"
+             Title="SaisirTempsPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Employé :" />
+            <Picker x:Name="PickerEmployee" Title="Choisir un employé" />
+
+            <Label Text="Rayon :" Margin="0,10,0,0"/>
+            <Picker x:Name="PickerRayon" Title="Choisir un rayon" />
+
+            <Label Text="Date :" Margin="0,10,0,0"/>
+            <DatePicker x:Name="DatePickerWork" />
+
+            <Label Text="Heures travaillées :" Margin="0,10,0,0"/>
+            <Entry x:Name="EntryHours" Placeholder="Heures" Keyboard="Numeric" />
+
+            <Button Text="Valider" 
+                    Clicked="OnValiderClicked" 
+                    Margin="0,20,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,79 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjetSupermarcheSeb
+build_property.ProjectDir = C:\Users\sebas\source\repos\ProjetSupermarcheSeb\ProjetSupermarcheSeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Views/ConsultationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Views.ConsultationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConsultationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConsultationPage.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Views/GestionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Views.GestionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GestionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GestionPage.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Views/GraphiquesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Views.GraphiquesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GraphiquesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GraphiquesPage.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Views/SaisirTempsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Views.SaisirTempsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SaisirTempsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SaisirTempsPage.xaml
+
+[C:/Users/sebas/source/repos/ProjetSupermarcheSeb/ProjetSupermarcheSeb/Views/StatistiquesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjetSupermarcheSeb.Views.StatistiquesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StatistiquesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StatistiquesPage.xaml
